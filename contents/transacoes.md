@@ -1,12 +1,6 @@
-<!-- Cabeçalho -->
-<div align="center">
-  <img src="https://img.shields.io/badge/SQL-00758F?style=for-the-badge&logo=mysql&logoColor=white" />
-  <h1>Transações e Controle de Concorrência</h1>
-</div>
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=header"/>
 
----
-
-# ⚡ Transações em SQL
+# ⚡ Transações e Controle de Concorrência
 
 Uma **transação** é uma sequência de operações SQL que é executada como uma única unidade de trabalho. Ela segue o princípio "tudo ou nada" - ou todas as operações são bem-sucedidas e persistidas no banco de dados, ou nenhuma alteração é aplicada.
 
@@ -295,10 +289,6 @@ SELECT * FROM produtos WHERE id = 101 FOR UPDATE;
 
 ---
 
-<!-- Rodapé -->
-<div align="center">
-  <p>
-    <a href="../README.md">🏠 Voltar para o Início</a>
-  </p>
-  <img src="https://img.shields.io/badge/SQL-00758F?style=for-the-badge&logo=mysql&logoColor=white" />
-</div> 
+[🔙 Voltar ao índice principal](../README.md)
+
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=footer"/>

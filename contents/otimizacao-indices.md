@@ -1,10 +1,4 @@
-<!-- Cabeçalho -->
-<div align="center">
-  <img src="https://img.shields.io/badge/SQL-00758F?style=for-the-badge&logo=mysql&logoColor=white" />
-  <h1>Otimização de Consultas e Índices</h1>
-</div>
-
----
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=header"/>
 
 # 🚀 Otimização de Consultas SQL
 
@@ -474,3 +468,9 @@ Uma consulta como esta pode passar de vários segundos ou até minutos de tempo 
   <p>✨ Desenvolvido com foco na clareza e aplicação prática ✨</p>
   <img src="https://img.shields.io/badge/SQL-00758F?style=for-the-badge&logo=mysql&logoColor=white" />
 </div> 
+
+---
+
+[🔙 Voltar ao índice principal](../README.md)
+
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=footer"/> 

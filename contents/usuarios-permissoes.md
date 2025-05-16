@@ -1,10 +1,4 @@
-<!-- Cabeçalho -->
-<div align="center">
-  <img src="https://img.shields.io/badge/SQL-00758F?style=for-the-badge&logo=mysql&logoColor=white" />
-  <h1>Controle de Usuários e Permissões</h1>
-</div>
-
----
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=header"/>
 
 # 🔐 Segurança em Bancos de Dados
 
@@ -704,3 +698,9 @@ aws rds modify-db-instance \
   <p>✨ Desenvolvido com foco na clareza e aplicação prática ✨</p>
   <img src="https://img.shields.io/badge/SQL-00758F?style=for-the-badge&logo=mysql&logoColor=white" />
 </div> 
+
+---
+
+[🔙 Voltar ao índice principal](../README.md)
+
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=footer"/> 

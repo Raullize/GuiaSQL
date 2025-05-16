@@ -1,10 +1,4 @@
-<!-- Cabeçalho -->
-<div align="center">
-  <img src="https://img.shields.io/badge/SQL-00758F?style=for-the-badge&logo=mysql&logoColor=white" />
-  <h1>Tipos de Comandos SQL (DML, DDL, DCL, TCL)</h1>
-</div>
-
----
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=header"/>
 
 # 🔍 Visão Geral dos Tipos de Comandos SQL
 
@@ -308,8 +302,6 @@ GRANT SELECT ANY TABLE TO usuario;
 
 ---
 
-<!-- Rodapé -->
-<div align="center">
-  <p>✨ Desenvolvido com foco na clareza e aplicação prática ✨</p>
-  <img src="https://img.shields.io/badge/SQL-00758F?style=for-the-badge&logo=mysql&logoColor=white" />
-</div> 
+[🔙 Voltar ao índice principal](../README.md)
+
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=footer"/> 
