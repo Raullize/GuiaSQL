@@ -32,6 +32,9 @@ Bem-vindo ao **GuiaSQL**, um recurso prático e abrangente para aprender SQL, de
 24. [🧩 Views e Procedimentos Armazenados](contents/views-procedures.md)
 25. [🔒 Controle de Usuários e Permissões](contents/usuarios-permissoes.md)
 26. [⚡ Transações e Controle de Concorrência](contents/transacoes.md)
+27. [🔗 ORMs - Object-Relational Mapping](contents/orms.md)
+28. [🏷️ Slugs em Bancos de Dados](contents/slugs.md)
+29. [📖 Glossário SQL e Banco de Dados](contents/glossario.md)
 
 ---
 
