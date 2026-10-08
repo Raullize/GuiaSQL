@@ -1,6 +1,6 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=header"/>
 
-# 🚀 Otimização de Consultas SQL
+# Otimização de Consultas SQL
 
 A otimização de consultas SQL é uma habilidade essencial para desenvolvedores e administradores de bancos de dados. Uma consulta bem otimizada pode fazer diferença entre um sistema responsivo e um que trava constantemente sob carga.
 
@@ -12,7 +12,7 @@ A otimização de consultas SQL é uma habilidade essencial para desenvolvedores
 - **Melhor experiência do usuário**: Aplicações mais rápidas e responsivas
 - **Menor custo**: Redução de recursos computacionais em ambientes de nuvem
 
-# 🔍 Entendendo o Plano de Execução
+# Entendendo o Plano de Execução
 
 O plano de execução é o roteiro que o mecanismo do banco de dados segue para executar uma consulta. Analisar esse plano é o primeiro passo para identificar problemas de desempenho.
 
@@ -59,7 +59,7 @@ Exemplo de análise (MySQL):
 
 Neste exemplo, `type: ALL` e `key: NULL` indicam uma varredura completa de tabela (sem uso de índice), o que pode ser ineficiente para tabelas grandes.
 
-# 📊 Índices: A Chave para Consultas Rápidas
+# Índices: A Chave para Consultas Rápidas
 
 Os índices são estruturas que melhoram a velocidade das operações em tabelas. Funcionam como um índice de livro, permitindo localizar dados rapidamente sem percorrer a tabela inteira.
 
@@ -152,7 +152,7 @@ Os índices podem ser ignorados pelo otimizador de consultas em várias situaç�
    ```sql
    -- Índice em 'data_criacao' não será usado
    SELECT * FROM pedidos WHERE YEAR(data_criacao) = 2023;
-   
+  
    -- Melhor alternativa
    SELECT * FROM pedidos WHERE data_criacao BETWEEN '2023-01-01' AND '2023-12-31';
    ```
@@ -161,7 +161,7 @@ Os índices podem ser ignorados pelo otimizador de consultas em várias situaç�
    ```sql
    -- Menos eficiente
    SELECT * FROM produtos WHERE categoria_id != 5;
-   
+  
    -- Mais eficiente
    SELECT * FROM produtos WHERE categoria_id < 5 OR categoria_id > 5;
    ```
@@ -170,7 +170,7 @@ Os índices podem ser ignorados pelo otimizador de consultas em várias situaç�
    ```sql
    -- Pode não usar índices eficientemente
    SELECT * FROM clientes WHERE cidade = 'São Paulo' OR estado = 'RJ';
-   
+  
    -- Alternativa usando UNION
    SELECT * FROM clientes WHERE cidade = 'São Paulo'
    UNION
@@ -181,13 +181,13 @@ Os índices podem ser ignorados pelo otimizador de consultas em várias situaç�
    ```sql
    -- Não usa índice eficientemente
    SELECT * FROM produtos WHERE nome LIKE '%smartphone%';
-   
+  
    -- Para busca de texto, considere índices full-text
-   SELECT * FROM produtos 
+   SELECT * FROM produtos
    WHERE MATCH(nome, descricao) AGAINST('smartphone' IN NATURAL LANGUAGE MODE);
    ```
 
-# 🛠️ Técnicas de Otimização de Consultas
+# Técnicas de Otimização de Consultas
 
 ## 1. Selecione Apenas as Colunas Necessárias
 
@@ -306,7 +306,7 @@ FROM produtos p
 WHERE categoria_id = 5 AND preco > 100;
 ```
 
-# 📈 Monitoramento e Manutenção
+# Monitoramento e Manutenção
 
 ## 1. Identifique Consultas Lentas
 
@@ -362,7 +362,7 @@ SELECT * FROM information_schema.statistics WHERE table_name = 'produtos';
 SELECT * FROM pg_stat_user_indexes WHERE relname = 'produtos';
 ```
 
-# 🚫 Antipadrões Comuns
+# Antipadrões Comuns
 
 1. **SELECT * em produção**: Aumenta I/O e tráfego de rede
 2. **Uso excessivo de funções em WHERE**: Impede uso de índices
@@ -372,7 +372,7 @@ SELECT * FROM pg_stat_user_indexes WHERE relname = 'produtos';
 6. **Uso de OR com diferentes colunas**: Limita a eficácia dos índices
 7. **Consultas com subselects múltiplos**: Aumenta a complexidade de processamento
 
-# 🧪 Estudo de Caso: Otimizando uma Consulta Complexa
+# Estudo de Caso: Otimizando uma Consulta Complexa
 
 ## Consulta Original (Não Otimizada)
 
@@ -453,7 +453,7 @@ LIMIT 100;
 
 Uma consulta como esta pode passar de vários segundos ou até minutos de tempo de execução para milissegundos após a otimização adequada.
 
-# 💡 Dicas Avançadas
+# Dicas Avançadas
 
 1. **Desnormalize estrategicamente**: Em sistemas de análise, alguma desnormalização controlada pode melhorar o desempenho de leitura
 2. **Use views materializadas**: Para relatórios frequentes, considere views materializadas (atualizadas periodicamente)
@@ -465,12 +465,12 @@ Uma consulta como esta pode passar de vários segundos ou até minutos de tempo 
 
 <!-- Rodapé -->
 <div align="center">
-  <p>✨ Desenvolvido com foco na clareza e aplicação prática ✨</p>
+  <p>Desenvolvido com foco na clareza e aplicação prática </p>
   <img src="https://img.shields.io/badge/SQL-00758F?style=for-the-badge&logo=mysql&logoColor=white" />
-</div> 
+</div>
 
 ---
 
-[🔙 Voltar ao índice principal](../README.md)
+[Voltar ao índice principal](../README.md)
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=footer"/> 
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=footer"/>

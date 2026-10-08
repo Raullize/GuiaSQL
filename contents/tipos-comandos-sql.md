@@ -1,6 +1,6 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=header"/>
 
-# 🔍 Visão Geral dos Tipos de Comandos SQL
+# Visão Geral dos Tipos de Comandos SQL
 
 SQL (Structured Query Language) organiza seus comandos em categorias específicas, cada uma com um propósito distinto no gerenciamento de bancos de dados relacionais. Esta categorização facilita a compreensão da linguagem e a aplicação correta dos comandos.
 
@@ -13,7 +13,7 @@ SQL (Structured Query Language) organiza seus comandos em categorias específica
 
 Vamos explorar cada categoria em detalhes.
 
-# 📐 DDL - Data Definition Language
+# DDL - Data Definition Language
 
 DDL é utilizada para definir e modificar a estrutura dos objetos no banco de dados.
 
@@ -83,7 +83,7 @@ Remove todos os registros de uma tabela, mas mantém sua estrutura.
 TRUNCATE TABLE logs_acesso;
 ```
 
-# 📝 DML - Data Manipulation Language
+# DML - Data Manipulation Language
 
 DML é utilizada para manipular os dados armazenados nas tabelas do banco de dados.
 
@@ -149,7 +149,7 @@ DELETE FROM produtos WHERE estoque = 0;
 DELETE FROM produtos;
 ```
 
-# 🔐 DCL - Data Control Language
+# DCL - Data Control Language
 
 DCL é utilizada para controlar os aspectos de permissão e acesso aos dados no sistema.
 
@@ -180,7 +180,7 @@ REVOKE INSERT ON loja_virtual.produtos FROM 'usuario_vendas'@'localhost';
 REVOKE ALL PRIVILEGES ON loja_virtual.* FROM 'usuario_temp'@'localhost';
 ```
 
-# 🔄 TCL - Transaction Control Language
+# TCL - Transaction Control Language
 
 TCL é utilizada para gerenciar as mudanças feitas por comandos DML, permitindo o agrupamento lógico de operações.
 
@@ -232,7 +232,7 @@ SET TRANSACTION READ ONLY;  -- Transação apenas leitura
 SET TRANSACTION ISOLATION LEVEL SERIALIZABLE;  -- Define nível de isolamento
 ```
 
-# 📊 Comparação entre Categorias de Comandos SQL
+# Comparação entre Categorias de Comandos SQL
 
 | Categoria | Finalidade | Comandos Principais | Atua sobre |
 |-----------|------------|---------------------|------------|
@@ -241,7 +241,7 @@ SET TRANSACTION ISOLATION LEVEL SERIALIZABLE;  -- Define nível de isolamento
 | **DCL** | Controlar acesso | GRANT, REVOKE | Permissões e segurança |
 | **TCL** | Gerenciar transações | COMMIT, ROLLBACK, SAVEPOINT | Integridade transacional |
 
-# 💡 Boas Práticas
+# Boas Práticas
 
 1. **Use controle de transações**: Sempre use transações para operações críticas que envolvam múltiplas tabelas
 2. **Privilégios mínimos**: Conceda apenas os privilégios necessários aos usuários
@@ -267,7 +267,7 @@ WHERE categoria_id = 1 AND subcategoria_id != 3;
 COMMIT;
 ```
 
-# 🌐 Dialetos SQL
+# Dialetos SQL
 
 É importante observar que existem pequenas variações na sintaxe entre diferentes SGBDs:
 
@@ -302,6 +302,6 @@ GRANT SELECT ANY TABLE TO usuario;
 
 ---
 
-[🔙 Voltar ao índice principal](../README.md)
+[Voltar ao índice principal](../README.md)
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=footer"/> 
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=footer"/>

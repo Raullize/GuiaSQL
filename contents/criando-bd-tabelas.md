@@ -1,6 +1,6 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=header"/>
 
-# 🗃️ Criando e Gerenciando Bancos de Dados
+# Criando e Gerenciando Bancos de Dados
 
 A criação de bancos de dados e tabelas é uma das primeiras tarefas ao desenvolver um sistema que utiliza SQL. Neste guia, vamos abordar desde a criação básica até técnicas mais avançadas de modelagem e implementação.
 
@@ -81,7 +81,7 @@ DROP DATABASE loja_virtual;
 DROP DATABASE IF EXISTS loja_virtual;
 ```
 
-# 📋 Criando e Gerenciando Tabelas
+# Criando e Gerenciando Tabelas
 
 As tabelas são os principais objetos de armazenamento em um banco de dados relacional. Vamos explorar diferentes aspectos da criação de tabelas.
 
@@ -239,7 +239,7 @@ CREATE TABLE produtos_inativos AS
 SELECT * FROM produtos WHERE ativo = FALSE;
 ```
 
-# 🏗️ Modelagem Eficiente de Tabelas
+# Modelagem Eficiente de Tabelas
 
 ## Normalização vs. Desnormalização
 
@@ -311,7 +311,7 @@ CREATE TABLE funcionarios (
 ) INHERITS (pessoas);
 ```
 
-# 💡 Boas Práticas
+# Boas Práticas
 
 1. **Nomenclatura consistente**: Use nomes claros e significativos
    ```sql
@@ -321,7 +321,7 @@ CREATE TABLE funcionarios (
        pedido_id INT,
        quantidade INT
    );
-   
+  
    -- Evitar
    CREATE TABLE pp (
        pid INT,
@@ -371,7 +371,7 @@ CREATE TABLE funcionarios (
    -- Pode ser executado múltiplas vezes sem erro
    CREATE DATABASE IF NOT EXISTS meu_banco;
    USE meu_banco;
-   
+  
    DROP TABLE IF EXISTS produtos;
    CREATE TABLE produtos (
        id INT PRIMARY KEY,
@@ -379,7 +379,7 @@ CREATE TABLE funcionarios (
    );
    ```
 
-# 📁 Exemplos Práticos de Esquemas
+# Exemplos Práticos de Esquemas
 
 ## Sistema de E-commerce
 
@@ -470,6 +470,6 @@ CREATE INDEX idx_produtos_nome ON produtos(nome);
 
 ---
 
-[🔙 Voltar ao índice principal](../README.md)
+[Voltar ao índice principal](../README.md)
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=footer"/> 
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=footer"/>

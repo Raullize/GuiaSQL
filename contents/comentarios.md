@@ -1,6 +1,6 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=header"/>
 
-# 📝 Comentários em SQL
+# Comentários em SQL
 
 ## O que são Comentários em SQL?
 
@@ -213,6 +213,6 @@ Use comentários para marcar itens que precisam ser revisados ou modificados no 
 
 ---
 
-[🔙 Voltar ao índice principal](../README.md)
+[Voltar ao índice principal](../README.md)
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=footer"/> 
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=footer"/>

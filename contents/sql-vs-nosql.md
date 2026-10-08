@@ -1,6 +1,6 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=header"/>
 
-# 🔍 SQL vs NoSQL
+# SQL vs NoSQL
 
 ## Bancos de Dados Relacionais vs Não Relacionais
 
@@ -164,6 +164,6 @@ Não existe uma solução "melhor" universalmente - o banco de dados ideal depen
 
 ---
 
-[🔙 Voltar ao índice principal](../README.md)
+[Voltar ao índice principal](../README.md)
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=footer"/> 
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=footer"/>

@@ -1,6 +1,6 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=header"/>
 
-# 🔍 Views em SQL
+# Views em SQL
 
 Uma View (ou visão) no SQL é uma tabela virtual baseada no resultado de uma consulta SQL. As views contêm linhas e colunas, assim como tabelas reais, mas não armazenam dados fisicamente - elas são criadas dinamicamente quando consultadas.
 
@@ -141,7 +141,7 @@ DROP VIEW IF EXISTS produtos_ativos;
 2. **Restrições em views atualizáveis**: Nem todas as views permitem modificação de dados
 3. **Limitações de índices**: Em geral, views não têm índices próprios (exceto materializadas)
 
-# 📋 Procedimentos Armazenados
+# Procedimentos Armazenados
 
 Procedimentos armazenados (Stored Procedures) são conjuntos de instruções SQL compiladas e armazenadas no banco de dados que podem ser executadas posteriormente.
 
@@ -434,7 +434,7 @@ END //
 DELIMITER ;
 ```
 
-# 🔄 Combinando Views e Procedimentos Armazenados
+# Combinando Views e Procedimentos Armazenados
 
 Views e procedimentos armazenados podem ser combinados para criar soluções poderosas.
 
@@ -503,7 +503,7 @@ END //
 DELIMITER ;
 ```
 
-# 💡 Boas Práticas
+# Boas Práticas
 
 ## Para Views
 
@@ -585,7 +585,7 @@ END //
 DELIMITER ;
 ```
 
-# 🌐 Diferenças entre SGBDs
+# Diferenças entre SGBDs
 
 ## MySQL/MariaDB
 
@@ -618,12 +618,12 @@ DELIMITER ;
 
 <!-- Rodapé -->
 <div align="center">
-  <p>✨ Desenvolvido com foco na clareza e aplicação prática ✨</p>
+  <p>Desenvolvido com foco na clareza e aplicação prática </p>
   <img src="https://img.shields.io/badge/SQL-00758F?style=for-the-badge&logo=mysql&logoColor=white" />
-</div> 
+</div>
 
 ---
 
-[🔙 Voltar ao índice principal](../README.md)
+[Voltar ao índice principal](../README.md)
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=footer"/> 
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=footer"/>

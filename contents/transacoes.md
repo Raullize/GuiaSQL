@@ -1,10 +1,10 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=header"/>
 
-# ⚡ Transações e Controle de Concorrência
+# Transações e Controle de Concorrência
 
 Uma **transação** é uma sequência de operações SQL que é executada como uma única unidade de trabalho. Ela segue o princípio "tudo ou nada" - ou todas as operações são bem-sucedidas e persistidas no banco de dados, ou nenhuma alteração é aplicada.
 
-## 🎯 Princípios ACID
+## Princípios ACID
 
 As transações seguem quatro princípios fundamentais conhecidos como **ACID**:
 
@@ -28,7 +28,7 @@ As transações seguem quatro princípios fundamentais conhecidos como **ACID**:
 - As mudanças persistem mesmo em caso de falha do sistema ou queda de energia
 - Implementado através de logs de transação e outros mecanismos de persistência
 
-## 📝 Comandos de Controle de Transação
+## Comandos de Controle de Transação
 
 ### BEGIN TRANSACTION (Iniciar Transação)
 
@@ -73,7 +73,7 @@ SAVEPOINT nome_do_savepoint;
 ROLLBACK TO SAVEPOINT nome_do_savepoint;
 ```
 
-## 🧩 Exemplo Prático de Transação
+## Exemplo Prático de Transação
 
 Considere um cenário de transferência bancária:
 
@@ -109,11 +109,11 @@ ELSE
 END IF;
 ```
 
-# 🔄 Controle de Concorrência
+# Controle de Concorrência
 
 O controle de concorrência gerencia o acesso simultâneo aos dados por múltiplas transações, evitando problemas de integridade e consistência.
 
-## 🚨 Problemas de Concorrência
+## Problemas de Concorrência
 
 ### Leitura Suja (Dirty Read)
 Ocorre quando uma transação lê dados que foram modificados por outra transação ainda não confirmada (não commitada):
@@ -152,7 +152,7 @@ Transação A: UPDATE produtos SET estoque = 90 WHERE id = 1;
 Transação B: UPDATE produtos SET estoque = 95 WHERE id = 1; -- Sobrescreve a mudança de A
 ```
 
-## 🔒 Níveis de Isolamento
+## Níveis de Isolamento
 
 Os níveis de isolamento definem o grau de visibilidade das alterações entre transações concorrentes:
 
@@ -192,16 +192,16 @@ SET TRANSACTION ISOLATION LEVEL REPEATABLE READ;
 SET TRANSACTION ISOLATION LEVEL SERIALIZABLE;
 ```
 
-## 📊 Comparação dos Níveis de Isolamento
+## Comparação dos Níveis de Isolamento
 
 | Nível de Isolamento | Leitura Suja | Leitura Não-Repetível | Leitura Fantasma | Desempenho |
 |---------------------|--------------|------------------------|------------------|------------|
-| READ UNCOMMITTED    | Sim          | Sim                    | Sim              | Melhor     |
-| READ COMMITTED      | Não          | Sim                    | Sim              | Bom        |
-| REPEATABLE READ     | Não          | Não                    | Sim              | Médio      |
-| SERIALIZABLE        | Não          | Não                    | Não              | Pior       |
+| READ UNCOMMITTED | Sim | Sim | Sim | Melhor |
+| READ COMMITTED | Não | Sim | Sim | Bom |
+| REPEATABLE READ | Não | Não | Sim | Médio |
+| SERIALIZABLE | Não | Não | Não | Pior |
 
-## 🔐 Bloqueios (Locks)
+## Bloqueios (Locks)
 
 Os SGBDs implementam diversos tipos de bloqueios para controlar o acesso concorrente:
 
@@ -225,7 +225,7 @@ Os SGBDs implementam diversos tipos de bloqueios para controlar o acesso concorr
 - Reduz a sobrecarga de gerenciamento de bloqueios
 - Usado em operações que afetam muitas linhas
 
-## 🚀 Otimização de Transações
+## Otimização de Transações
 
 Para melhorar o desempenho e reduzir problemas de concorrência:
 
@@ -250,7 +250,7 @@ Para melhorar o desempenho e reduzir problemas de concorrência:
 - Nem todas as operações precisam de transações
 - Consultas de leitura simples geralmente não precisam
 
-# 🧠 Padrões de Controle de Concorrência
+# Padrões de Controle de Concorrência
 
 ## Controle de Concorrência Otimista
 - Assume que conflitos são raros
@@ -280,7 +280,7 @@ SELECT * FROM produtos WHERE id = 101 FOR UPDATE;
 -- Isso impede que outras transações modifiquem este registro
 ```
 
-# 📚 Recursos Adicionais
+# Recursos Adicionais
 
 - [Documentação oficial do MySQL sobre transações](https://dev.mysql.com/doc/refman/8.0/en/sql-transactional-statements.html)
 - [Documentação do PostgreSQL sobre controle de concorrência](https://www.postgresql.org/docs/current/mvcc.html)
@@ -289,6 +289,6 @@ SELECT * FROM produtos WHERE id = 101 FOR UPDATE;
 
 ---
 
-[🔙 Voltar ao índice principal](../README.md)
+[Voltar ao índice principal](../README.md)
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=footer"/>

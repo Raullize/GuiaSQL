@@ -1,6 +1,6 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=header"/>
 
-# 🗄️ Conceitos de Banco de Dados Relacional
+# Conceitos de Banco de Dados Relacional
 
 ## Fundamentos do Modelo Relacional
 
@@ -20,11 +20,11 @@ Características das tabelas:
 
 Exemplo de tabela "Clientes":
 
-| id | nome        | email               | telefone      |
+| id | nome | email | telefone |
 |----|-------------|---------------------|---------------|
-| 1  | Ana Silva   | ana@email.com       | (11) 1234-5678 |
-| 2  | Bruno Costa | bruno@email.com     | (21) 8765-4321 |
-| 3  | Carla Lima  | carla@email.com     | (31) 5555-1234 |
+| 1 | Ana Silva | ana@email.com | (11) 1234-5678 |
+| 2 | Bruno Costa | bruno@email.com | (21) 8765-4321 |
+| 3 | Carla Lima | carla@email.com | (31) 5555-1234 |
 
 ### Registros (Tuplas ou Linhas)
 
@@ -203,6 +203,6 @@ COMMIT;
 
 ---
 
-[🔙 Voltar ao índice principal](../README.md)
+[Voltar ao índice principal](../README.md)
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=footer"/> 
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=footer"/>

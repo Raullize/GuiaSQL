@@ -1,6 +1,6 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=header"/>
 
-# 🔄 Subqueries (Subconsultas)
+# Subqueries (Subconsultas)
 
 Uma subconsulta (ou subquery) é uma consulta SQL inserida dentro de outra consulta. Elas permitem operações mais complexas e flexíveis, possibilitando usar o resultado de uma consulta como entrada para outra consulta.
 
@@ -87,7 +87,7 @@ WHERE (
 ORDER BY c.nome, tv.quantidade_vendida DESC;
 ```
 
-# 🌐 Onde Usar Subconsultas
+# Onde Usar Subconsultas
 
 ## Na Cláusula SELECT
 
@@ -186,7 +186,7 @@ HAVING EXISTS (
 );
 ```
 
-# ⚡ Operadores com Subconsultas
+# Operadores com Subconsultas
 
 ## Operador IN
 
@@ -321,7 +321,7 @@ WHERE preco > ANY (
 );
 ```
 
-# 🧠 Subconsultas Correlacionadas
+# Subconsultas Correlacionadas
 
 Uma subconsulta correlacionada é aquela que depende da consulta externa. Ela é executada uma vez para cada linha processada pela consulta externa.
 
@@ -347,7 +347,7 @@ WHERE p.valor_total > (
 );
 ```
 
-# 📊 Casos de Uso Avançados
+# Casos de Uso Avançados
 
 ## Consultas Hierárquicas
 
@@ -434,7 +434,7 @@ AND id NOT IN (
 );
 ```
 
-# 💡 Boas Práticas e Otimização
+# Boas Práticas e Otimização
 
 1. **Evite subconsultas desnecessárias**: Em muitos casos, JOINs podem ser mais eficientes.
 
@@ -523,7 +523,7 @@ WHERE NOT EXISTS (SELECT 1 FROM categorias c
                   WHERE c.id = p.categoria_id AND c.ativo = 0);
 ```
 
-# 🚀 Exemplos Completos
+# Exemplos Completos
 
 ## Análise de Clientes
 
@@ -608,12 +608,12 @@ ORDER BY ano, mes;
 
 <!-- Rodapé -->
 <div align="center">
-  <p>✨ Desenvolvido com foco na clareza e aplicação prática ✨</p>
+  <p>Desenvolvido com foco na clareza e aplicação prática </p>
   <img src="https://img.shields.io/badge/SQL-00758F?style=for-the-badge&logo=mysql&logoColor=white" />
-</div> 
+</div>
 
 ---
 
-[🔙 Voltar ao índice principal](../README.md)
+[Voltar ao índice principal](../README.md)
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=footer"/> 
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=footer"/>

@@ -1,6 +1,6 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=header"/>
 
-# ✏️ U - Atualização de Dados (UPDATE)
+# U - Atualização de Dados (UPDATE)
 
 ## O que é o Comando UPDATE?
 
@@ -194,6 +194,6 @@ WHERE p.categoria_id = c.id AND c.nome = 'Eletrônicos';
 
 ---
 
-[🔙 Voltar ao índice principal](../README.md)
+[Voltar ao índice principal](../README.md)
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=footer"/> 
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=footer"/>

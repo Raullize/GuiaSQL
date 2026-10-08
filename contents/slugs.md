@@ -1,6 +1,6 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=header"/>
 
-# 🏷️ Slugs em Bancos de Dados
+# Slugs em Bancos de Dados
 
 ## O que é um Slug?
 
@@ -365,10 +365,10 @@ Slugs são uma ferramenta essencial para criar URLs amigáveis e melhorar a expe
 - **Performance**: Com índices adequados, buscas rápidas
 - **Flexibilidade**: Fácil de implementar e manter
 
-**💡 Dica:** Sempre considere a unicidade, performance e manutenibilidade ao implementar slugs em seus projetos.
+**Dica:** Sempre considere a unicidade, performance e manutenibilidade ao implementar slugs em seus projetos.
 
 ---
 
-[🔙 Voltar ao índice principal](../README.md)
+[Voltar ao índice principal](../README.md)
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=footer"/>

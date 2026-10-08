@@ -1,6 +1,6 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=header"/>
 
-# 🔗 ORMs - Object-Relational Mapping
+# ORMs - Object-Relational Mapping
 
 ## O que é um ORM?
 
@@ -237,10 +237,10 @@ ORMs são ferramentas poderosas que podem acelerar significativamente o desenvol
 
 A chave está em encontrar o equilíbrio entre produtividade de desenvolvimento e performance da aplicação, sempre considerando as necessidades específicas do projeto.
 
-**💡 Dica:** Mesmo usando ORMs, é fundamental ter um bom conhecimento de SQL para entender o que está acontecendo "por baixo dos panos" e poder otimizar quando necessário.
+**Dica:** Mesmo usando ORMs, é fundamental ter um bom conhecimento de SQL para entender o que está acontecendo "por baixo dos panos" e poder otimizar quando necessário.
 
 ---
 
-[🔙 Voltar ao índice principal](../README.md)
+[Voltar ao índice principal](../README.md)
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=footer"/>

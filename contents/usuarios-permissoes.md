@@ -1,6 +1,6 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=header"/>
 
-# 🔐 Segurança em Bancos de Dados
+# Segurança em Bancos de Dados
 
 A segurança é um aspecto crítico em qualquer sistema de banco de dados. O controle adequado de usuários e permissões ajuda a:
 
@@ -10,7 +10,7 @@ A segurança é um aspecto crítico em qualquer sistema de banco de dados. O con
 - Cumprir requisitos regulatórios e de conformidade
 - Estabelecer responsabilidade por ações no banco de dados
 
-# 👤 Gerenciamento de Usuários
+# Gerenciamento de Usuários
 
 ## Criação de Usuários
 
@@ -143,7 +143,7 @@ DROP LOGIN usuario1;
 DROP USER usuario1 CASCADE;  -- CASCADE remove todos os objetos do usuário
 ```
 
-# 🛡️ Gerenciamento de Privilégios
+# Gerenciamento de Privilégios
 
 Os privilégios (ou permissões) controlam o que cada usuário pode fazer no banco de dados.
 
@@ -283,7 +283,7 @@ REVOKE INSERT ON tabela FROM usuario1;
 REVOKE CREATE TABLE FROM usuario1;
 ```
 
-# 🧩 Roles (Funções/Papéis)
+# Roles (Funções/Papéis)
 
 Roles são conjuntos de privilégios que podem ser atribuídos a usuários, facilitando a gestão de permissões.
 
@@ -385,7 +385,7 @@ Muitos SGBDs têm roles pré-definidas com conjuntos específicos de permissões
 - `RESOURCE`: Pode criar objetos no próprio esquema
 - `DBA`: Acesso administrativo completo
 
-# 🔍 Visualizando Permissões
+# Visualizando Permissões
 
 ## Verificando privilégios concedidos
 
@@ -444,7 +444,7 @@ SELECT * FROM dba_tab_privs WHERE grantee = 'USUARIO1';
 SELECT * FROM dba_role_privs WHERE grantee = 'USUARIO1';
 ```
 
-# 📊 Estratégias e Boas Práticas
+# Estratégias e Boas Práticas
 
 ## 1. Princípio do Privilégio Mínimo
 
@@ -586,7 +586,7 @@ ALTER USER 'usuario1'@'localhost' WITH
 ALTER ROLE usuario1 SET statement_timeout = '30s';  -- Limite de 30 segundos por consulta
 ```
 
-# 🔄 Exemplo de Implementação Completa
+# Exemplo de Implementação Completa
 
 O exemplo a seguir demonstra uma estratégia de gerenciamento de usuários e permissões para um sistema de e-commerce:
 
@@ -662,7 +662,7 @@ ALTER USER 'admin'@'localhost' PASSWORD EXPIRE INTERVAL 60 DAY;
 ALTER USER 'supervisor'@'%' PASSWORD EXPIRE INTERVAL 90 DAY;
 ```
 
-# 🌐 Segurança em Diferentes Ambientes
+# Segurança em Diferentes Ambientes
 
 ## Desenvolvimento vs. Produção
 
@@ -695,12 +695,12 @@ aws rds modify-db-instance \
 
 <!-- Rodapé -->
 <div align="center">
-  <p>✨ Desenvolvido com foco na clareza e aplicação prática ✨</p>
+  <p>Desenvolvido com foco na clareza e aplicação prática </p>
   <img src="https://img.shields.io/badge/SQL-00758F?style=for-the-badge&logo=mysql&logoColor=white" />
-</div> 
+</div>
 
 ---
 
-[🔙 Voltar ao índice principal](../README.md)
+[Voltar ao índice principal](../README.md)
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=footer"/> 
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=footer"/>

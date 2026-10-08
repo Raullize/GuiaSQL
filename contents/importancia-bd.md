@@ -1,6 +1,6 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=header"/>
 
-# 🏛️ A Importância dos Bancos de Dados
+# A Importância dos Bancos de Dados
 
 ## O Papel dos Bancos de Dados na Tecnologia da Informação
 
@@ -165,6 +165,6 @@ Os bancos de dados são muito mais que simples repositórios de dados - são ati
 
 ---
 
-[🔙 Voltar ao índice principal](../README.md)
+[Voltar ao índice principal](../README.md)
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=footer"/> 
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=footer"/>

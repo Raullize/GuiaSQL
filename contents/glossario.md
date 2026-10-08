@@ -1,6 +1,6 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=header"/>
 
-# 📖 Glossário SQL e Banco de Dados
+# Glossário SQL e Banco de Dados
 
 Este glossário contém definições de termos técnicos utilizados em SQL e bancos de dados relacionais, organizados alfabeticamente para facilitar a consulta.
 
@@ -308,14 +308,14 @@ Este glossário contém definições de termos técnicos utilizados em SQL e ban
 
 ---
 
-## 📚 Como Usar Este Glossário
+## Como Usar Este Glossário
 
 - **Busca rápida**: Use Ctrl+F para encontrar termos específicos
 - **Referência cruzada**: Termos relacionados são mencionados nas definições
 - **Contexto**: Cada definição inclui o contexto de uso em SQL/BD
 - **Iniciantes**: Linguagem simples e exemplos quando necessário
 
-## 💡 Dicas de Estudo
+## Dicas de Estudo
 
 1. **Revise regularmente**: Consulte o glossário durante o aprendizado
 2. **Pratique os termos**: Use os conceitos em exercícios práticos
@@ -324,6 +324,6 @@ Este glossário contém definições de termos técnicos utilizados em SQL e ban
 
 ---
 
-[🔙 Voltar ao índice principal](../README.md)
+[Voltar ao índice principal](../README.md)
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=footer"/>

@@ -1,6 +1,6 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=header"/>
 
-# 📊 Modelo Entidade-Relacionamento (MER)
+# Modelo Entidade-Relacionamento (MER)
 
 O Modelo Entidade-Relacionamento (MER) é uma técnica de modelagem conceitual utilizada para projetar bancos de dados relacionais. Criado por Peter Chen em 1976, este modelo proporciona uma representação gráfica das estruturas de dados e suas relações.
 
@@ -58,7 +58,7 @@ O Modelo Entidade-Relacionamento (MER) é uma técnica de modelagem conceitual u
                      +-------------+
 ```
 
-# 🧩 Normalização de Bancos de Dados
+# Normalização de Bancos de Dados
 
 A normalização é um processo de organização de dados em um banco de dados que visa eliminar redundâncias e dependências problemáticas, reduzindo a possibilidade de anomalias de dados.
 
@@ -195,7 +195,7 @@ CREATE TABLE Relatorio_Vendas (
 );
 ```
 
-# 💡 Boas Práticas
+# Boas Práticas
 
 1. **Normalizar durante o projeto**: Comece com um banco normalizado até a 3FN
 2. **Avaliar requisitos de performance**: Considere desnormalização apenas quando necessário
@@ -207,12 +207,12 @@ CREATE TABLE Relatorio_Vendas (
 
 <!-- Rodapé -->
 <div align="center">
-  <p>✨ Desenvolvido com foco na clareza e aplicação prática ✨</p>
+  <p>Desenvolvido com foco na clareza e aplicação prática </p>
   <img src="https://img.shields.io/badge/SQL-00758F?style=for-the-badge&logo=mysql&logoColor=white" />
-</div> 
+</div>
 
 ---
 
-[🔙 Voltar ao índice principal](../README.md)
+[Voltar ao índice principal](../README.md)
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=footer"/> 
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=footer"/>

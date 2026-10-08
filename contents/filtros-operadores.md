@@ -1,6 +1,6 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=header"/>
 
-# 🔍 Filtros em SQL
+# Filtros em SQL
 
 Os filtros são elementos fundamentais na linguagem SQL que permitem extrair exatamente os dados necessários de um banco de dados. Utilizando a cláusula `WHERE`, podemos definir condições específicas para selecionar, atualizar ou excluir registros.
 
@@ -33,7 +33,7 @@ FROM pedidos
 WHERE data_pedido = '2023-05-15';
 ```
 
-# ⚙️ Operadores Lógicos e de Comparação
+# Operadores Lógicos e de Comparação
 
 ## Operadores de Comparação
 
@@ -132,7 +132,7 @@ WHERE (c.vip = TRUE) OR
       (c.data_cadastro >= '2023-01-01' AND p.valor_total > 1000);
 ```
 
-# 🧩 Operadores Especiais
+# Operadores Especiais
 
 ## BETWEEN
 
@@ -217,7 +217,7 @@ FROM produtos
 WHERE preco_promocional IS NULL;
 ```
 
-# 🔄 Subconsultas em Filtros
+# Subconsultas em Filtros
 
 Subconsultas (subqueries) podem ser usadas dentro da cláusula WHERE para criar filtros mais sofisticados.
 
@@ -245,7 +245,7 @@ WHERE id NOT IN (
 );
 ```
 
-# 📊 Filtros em Operações de Agregação (HAVING)
+# Filtros em Operações de Agregação (HAVING)
 
 A cláusula `HAVING` é usada para filtrar resultados de funções de agregação, enquanto `WHERE` filtra registros individuais.
 
@@ -272,7 +272,7 @@ GROUP BY p.id, p.nome
 HAVING unidades_vendidas > 100;
 ```
 
-# 🌐 Operadores em Diferentes SGBDs
+# Operadores em Diferentes SGBDs
 
 Alguns operadores têm sintaxe específica dependendo do SGBD:
 
@@ -312,7 +312,7 @@ SELECT * FROM produtos WHERE nome ILIKE '%smartphone%';
 SELECT * FROM produtos WHERE nome LIKE '%smartphone%' COLLATE SQL_Latin1_General_CP1_CI_AS;
 ```
 
-# 💡 Dicas e Boas Práticas
+# Dicas e Boas Práticas
 
 1. **Otimização de Filtros**:
    - Filtre primeiro, depois junte (JOIN)
@@ -380,7 +380,7 @@ SELECT * FROM clientes WHERE cidade = 'São Paulo';
 SELECT id, nome, email, telefone FROM clientes WHERE cidade = 'São Paulo';
 ```
 
-# 📝 Exemplos Práticos Avançados
+# Exemplos Práticos Avançados
 
 ## Consulta com Múltiplos Filtros Complexos
 
@@ -453,6 +453,6 @@ ORDER BY valor_total DESC;
 
 ---
 
-[🔙 Voltar ao índice principal](../README.md)
+[Voltar ao índice principal](../README.md)
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=footer"/> 
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00758F&height=120&section=footer"/>
